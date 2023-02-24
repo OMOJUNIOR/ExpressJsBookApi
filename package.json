@@ -1,0 +1,29 @@
+{
+  "name": "expressjsbookapi",
+  "version": "0.0.0",
+  "private": true,
+  "author": {
+    "name": "Musa A S"
+  },
+  "description": "Express js ve Node js kullanarak basit bir REST API oluşturulması ve MongoDB veritabanı kullanımı",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": " ",
+    "directory": "lib"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "mongodb": "5.1",
+    "mongoose": "^6.10.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
